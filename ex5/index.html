@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Layout Examples</h1>
+        </header>
+
+        <section class="block-section section">
+            <h2>Block Display</h2>
+            <div class="block">
+                <p>This is a block element.</p>
+            </div>
+        </section>
+
+        <section class="inline-section section">
+            <h2>Inline Display</h2>
+            <span class="inline">This is an inline element.</span>
+        </section>
+
+        <section class="inline-block-section section">
+            <h2>Inline-Block Display</h2>
+            <div class="inline-block">
+                <p>This is an inline-block element.</p>
+            </div>
+        </section>
+
+        <section class="flexbox-section section">
+            <h2>Flexbox Display</h2>
+            <div class="flex-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </section>
+
+        <section class="flexbox-section">
+            <h2>Flexbox Properties</h2>
+            <div class="divider"></div>
+            <div class="flex-container justify-content-center">
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 1">
+                    <h3>justify-content: center</h3>
+                    <p>This item is horizontally centered within the flex container.</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 2">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 3">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container align-items-start">
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 4">
+                    <h3>align-items: flex-start</h3>
+                    <p>This item is aligned to the top of the flex container.</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 5">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 6">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container flex-direction-column">
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 7">
+                    <h3>flex-direction: column</h3>
+                    <p>This item is displayed vertically in a column.</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 8">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 9">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container flex-wrap-reverse">
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 10">
+                    <h3>flex-wrap: wrap-reverse</h3>
+                    <p>This item wraps to the next line, but in reverse order.</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 11">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://via.placeholder.com/400" alt="Image 12">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container flex-grow">
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 13">
+                    <h3>flex-grow: 1</h3>
+                    <p>This item grows to fill the available space.</p>
+                </div>
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 14">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 15">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container flex-shrink">
+                <div class="flex-item ">
+                    <img src="https://via.placeholder.com/400" alt="Image 16">
+                    <h3>flex-shrink: 0</h3>
+                    <p>This item does not shrink when the container is resized.</p>
+                </div>
+                <div class="flex-item flex-01-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 17">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item flex-01-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 18">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container">
+                <div class="flex-item basis-300">
+                    <img src="https://via.placeholder.com/400" alt="Image 19">
+                    <h3>flex-basis: 300px</h3>
+                    <p>This item has a fixed initial size of 300 pixels.</p>
+                </div>
+                <div class="flex-item basis-300">
+                    <img src="https://via.placeholder.com/400" alt="Image 20">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item basis-300">
+                    <img src="https://via.placeholder.com/400" alt="Image 21">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="flex-container">
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 22">
+                    <h3>flex: 1 0 200px</h3>
+                    <p>This item has a flex-grow value of 1, flex-shrink value of 0, and a flex-basis value of 200 pixels.</p>
+                </div>
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 23">
+                    <h3>Item 2</h3>
+                    <p>Additional item</p>
+                </div>
+                <div class="flex-item flex-10-200">
+                    <img src="https://via.placeholder.com/400" alt="Image 24">
+                    <h3>Item 3</h3>
+                    <p>Additional item</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

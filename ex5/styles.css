@@ -1,0 +1,130 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.block-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section {}
+
+.section h2 {
+    width: 100%;
+    border-bottom: 2px solid #ef7224;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.block {
+    display: block;
+    background-color: #ffcccc;
+    padding: 10px;
+}
+
+.inline-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+    background-color: #ccffcc;
+    padding: 10px;
+}
+
+.inline-block-section {
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: #ffffcc;
+    padding: 10px;
+}
+
+.flexbox-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid rgb(0, 136, 255);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 16px 0;
+}
+
+.flex-container.justify-content-center {
+    justify-content: center;
+}
+
+.flex-container.align-items-start {
+    align-items: flex-start;
+}
+
+.flex-container.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-container.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-container.flex-shrink {
+    flex-shrink: 0;
+}
+
+.flex-container .flex-item {
+    background-color: #ffcce6;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.basis-300 {
+    flex-basis: 300px !important;
+}
+
+.flex-container .flex-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 100%;
+    border-top: 2px solid #ef7224;
+}
+
+.flex-10-200 {
+    flex: 1 0 200px !important;
+}
+
+.flex-01-200 {
+    flex: 0 1 100px !important;
+}
