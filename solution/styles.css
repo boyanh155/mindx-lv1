@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex-2{
+    flex: 2;
+}
+
+nav{
+    background-color: aqua;
+}
+
+.ar1{
+    background-color: lightgreen;
+}
+.ar2{
+    background-color: red;
+}
+
+header{
+    background-color: lightcoral;
+}
+
+footer{
+    background-color: lightblue;
+}
